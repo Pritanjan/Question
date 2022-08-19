@@ -14,4 +14,6 @@
   
   
   <b> Adobe </b>
-
+| #  | Title | Acceptance |
+  ----  | --- | --- |
+  1  |   <a href="https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1"> Leaders in an array  | <a href="https://www.geeksforgeeks.org/leaders-in-an-array/"> gfg  </a>
