@@ -12,7 +12,9 @@
  * };
  */
  
- // in CN use data in place of val
+ // in CN 
+ // ListNode  -> Node
+ // val -> data
  
 class Solution {
 public:
