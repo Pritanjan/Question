@@ -1,5 +1,6 @@
-//https://leetcode.com/problems/sum-of-left-leaves/
-https://www.codingninjas.com/codestudio/problems/left-sum_920380?topList=amazon-sde-challenge&leftPanelTab=0
+// https://leetcode.com/problems/sum-of-left-leaves/
+// https://www.codingninjas.com/codestudio/problems/left-sum_920380?topList=amazon-sde-challenge&leftPanelTab=0
+// https://leetcode.com/problems/sum-of-left-leaves/discuss/2100916/c-0ms-solution
 
 class Solution {
 public:
