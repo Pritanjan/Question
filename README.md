@@ -12,8 +12,8 @@
   7   |   <a href="https://www.codingninjas.com/codestudio/problems/left-sum_920380?topList=amazon-sde-challenge&leftPanelTab=0"> Left Sum | <a href="https://github.com/Pritanjan/Question/blob/main/CN%20AMAZON%20SDE%20CHALLENGE/7%20404.%20Sum%20of%20Left%20Leaves.cpp"> GitHub  <a href="https://leetcode.com/problems/sum-of-left-leaves/discuss/2100916/c-0ms-solution"> LC | Amazon | Easy 
   8   |  <a href="https://www.codingninjas.com/codestudio/problems/fibonacci-number_1232655?topList=amazon-sde-challenge&leftPanelTab=0"> Fibonacci Number | <a href="https://github.com/Pritanjan/Question/blob/main/CN%20AMAZON%20SDE%20CHALLENGE/8%20509.%20Fibonacci%20Number.cpp"> GIthub <a href="https://leetcode.com/problems/fibonacci-number/discuss/2243893/6-c-3-solution-easy-solution-6"> LC | Amazon Make My Trip MAQ Software Snapedeal | Easy
   9   | <a href="https://www.codingninjas.com/codestudio/problems/replace-spaces_1172172?topList=amazon-sde-challenge&leftPanelTab=0"> Replace Spaces | <a href="https://github.com/Pritanjan/Question/blob/main/CN%20AMAZON%20SDE%20CHALLENGE/9%20Replace%20Spaces.cpp"> Github | Amazon Microsoft | Easy
-
-
+  10  | <a href="https://www.codingninjas.com/codestudio/problems/two-substrings_920397?topList=amazon-sde-challenge&leftPanelTab=0"> Overlapping ABBA | <a href="
+https://github.com/Pritanjan/Question/blob/main/CN%20AMAZON%20SDE%20CHALLENGE/010%20Overlapping%20ABBA.cpp"> Github | Amazon VISA | Easy 
 
 
 
