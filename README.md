@@ -14,7 +14,10 @@
   9   | <a href="https://www.codingninjas.com/codestudio/problems/replace-spaces_1172172?topList=amazon-sde-challenge&leftPanelTab=0"> Replace Spaces | <a href="https://github.com/Pritanjan/Question/blob/main/CN%20AMAZON%20SDE%20CHALLENGE/009%20Replace%20Spaces.cpp"> Github | Amazon Microsoft | Easy
   10  | <a href="https://www.codingninjas.com/codestudio/problems/two-substrings_920397?topList=amazon-sde-challenge&leftPanelTab=0"> Overlapping ABBA | <a href="https://github.com/Pritanjan/Question/blob/main/CN%20AMAZON%20SDE%20CHALLENGE/010%20Overlapping%20ABBA.cpp"> Github | Amazon VISA | Easy 
   11  | <a href="https://www.codingninjas.com/codestudio/problems/check-if-the-word-is-present-in-sentence-or-not_920440?topList=amazon-sde-challenge&leftPanelTab=0"> Check if the Word is present in Sentence or not | <a href="https://github.com/Pritanjan/Question/blob/main/CN%20AMAZON%20SDE%20CHALLENGE/011%20Check%20if%20the%20Word%20is%20present%20in%20Sentence%20or%20not.cpp"> Github <a href="https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/discuss/2554434/C%2B%2B-Solution-with-explanation"> LC(similar problem on LC) | Amazon | Easy
-  12  |   <a href="https://www.codingninjas.com/codestudio/problems/container-with-maximum-water_892982?topList=amazon-sde-challenge&leftPanelTab=0"> Container With Maximum Water | <a href="https://leetcode.com/problems/container-with-most-water/discuss/2594527/C%2B%2B-oror-2-Solution-oror-2-Pointer-with-explanation"> LC-11 </a>  <a href="https://www.codingninjas.com/codestudio/problems/container-with-maximum-water_892982?topList=amazon-sde-challenge&leftPanelTab=0"> CN </a>
+  12  |   <a href="https://www.codingninjas.com/codestudio/problems/container-with-maximum-water_892982?topList=amazon-sde-challenge&leftPanelTab=0"> Container With Maximum Water | <a href="https://leetcode.com/problems/container-with-most-water/discuss/2594527/C%2B%2B-oror-2-Solution-oror-2-Pointer-with-explanation"> LC-11 </a>  <a href="https://www.codingninjas.com/codestudio/problems/container-with-maximum-water_892982?topList=amazon-sde-challenge&leftPanelTab=0"> CN </a> | Amazon Google Adobe fb | Easy
+ 
+ 
+ 
 
 
 
