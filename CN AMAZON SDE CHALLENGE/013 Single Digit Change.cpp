@@ -14,3 +14,7 @@ int findMaxNum(int num) {
 }
 
 
+T.C. --> O(N)
+S.C. --> O(N)
+    
+    N IS the size of digit in num
