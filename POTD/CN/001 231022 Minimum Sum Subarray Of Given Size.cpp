@@ -1,5 +1,6 @@
 // https://www.codingninjas.com/codestudio/problem-of-the-day/easy
 
+// GFG -- > https://www.geeksforgeeks.org/find-maximum-minimum-sum-subarray-size-k/
 
 #include <bits/stdc++.h> 
 int minSubarraySum(int arr[], int n, int k) {
