@@ -39,4 +39,12 @@ int ninjaAndLadoos(vector<int> &arr1, vector<int> &arr2, int m, int n, int k){
     return ans[k - 1];
 }
 
+// Time Complexity: O(n) 
+// Auxiliary Space : O(m + n) 
+
+
+
+
+
+
 
