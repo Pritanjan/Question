@@ -1,3 +1,7 @@
+// https://workat.tech/problem-solving/practice/words-in-sentence
+// https://www.educative.io/answers/how-to-find-the-number-of-words-in-a-sentence-in-cpp
+
+
 #include <iostream>
 using namespace std;
 
