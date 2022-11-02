@@ -1,6 +1,10 @@
 // https://workat.tech/problem-solving/practice/words-in-sentence
 // https://www.educative.io/answers/how-to-find-the-number-of-words-in-a-sentence-in-cpp
+
+// https://www.geeksforgeeks.org/count-words-in-a-given-string/
+
 /* C++ program to count no of words from given input string. */
+
 
 #include <iostream>
 using namespace std;
@@ -140,10 +144,6 @@ int main() {
 	      cout << "No of words : " << countWords(str, n);
 	      return 0;
 }
-
-
-
-
 
 
 
