@@ -147,4 +147,7 @@ int main() {
 
 
 
-
+Output
+No of words : 5
+Time Complexity: O(N)
+Auxiliary Space: O(1)
