@@ -53,6 +53,36 @@ int main()
 // } Driver Code Ends
 
 
+// TLE
+
+class Solution{
+    public:
+    vector<long long int> twoOddNum(long long int Arr[], long long int N)  
+    {
+        unordered_map<long long int, long long int> ump;
+        for(auto i=0; i<N; i++)
+            ump[Arr[i]]++;
+            
+        vector<long long int> v;
+        
+        for(auto i : ump)
+            if(i.second % 2 != 0)
+                v.push_back(i.first);
+    
+        // sort(v.rbegin(), v.rend());
+        if(v[1] > v[0]){
+            int temp = v[0];
+            v[0] = v[1];
+            v[1] = temp;
+        }
+        return v;
+    }
+};
+
+
+
+
+
 
 
 
