@@ -23,3 +23,8 @@ int kDistinctChars(int k, string &s){
 
 
 
+// https://medium.com/interviewnoodle/longest-substring-with-k-distinct-characters-in-python-sliding-window-pattern-coding-52e36fd79b96
+
+
+
+
