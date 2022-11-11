@@ -1,4 +1,5 @@
 // https://www.codingninjas.com/codestudio/problem-of-the-day/easy?leftPanelTab=0
+// https://www.codingninjas.com/codestudio/problems/generate-binary-numbers_981264?leftPanelTab=2
 
 // APPROACH 1
 // A simple and intuitive approach could be to generate all the decimal numbers from 1 to N  
@@ -14,12 +15,15 @@
 // the new binary numbers from the previously generated ones.
 
 #include <bits/stdc++.h> 
-vector<string> generateBinaryNumbers(int n)
-{
+vector<string> generateBinaryNumbers(int n) {
+    // Maintain a queue
     queue<string> que;
     que.push("1");
+    
+    // Create an array to store all binary numbers
     vector<string> v;
     
+    // Perform the level order traversal until all the N numbers are generated.
     while(n--){
         string s1 = que.front();
         que.pop();
@@ -53,3 +57,9 @@ vector<string> generateBinaryNumbers(int n)
     }
     return v;
 }
+
+// 	Time complexity: O(N)
+// 	Space Complexity: O(N * log(N))
+
+
+
