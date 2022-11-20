@@ -14,18 +14,25 @@ using namespace std;
 
 class Solution {
   public:
-    long long lcmTriplets(long long n) {
-        if(n < 3)
-            return n;
-        else if(n % 2 == 0){
-            if(n % 3 == 0)
-                return (n-1) * (n-2) * (n-3);
-            else
-                return n * (n-1) * (n-3);
+    long long lcmTriplets(long long N) {
+        long long ans;
+        // when N is less than 3
+        if (N < 3) {
+            ans = N;
         }
-        else
-            return n * (n-1)  * (n-2);
-        
+        // when N is odd
+        else if (N % 2) {
+            ans = N * (N - 1) * (N - 2);
+        }
+        // when N is even and not divisible by 3
+        else if (N % 3) {
+            ans = N * (N - 1) * (N - 3);
+        }
+        // when N is even and divisible by 3
+        else {
+            ans = (N - 1) * (N - 2) * (N - 3);
+        }
+        return ans;
     }
 };
 
@@ -42,6 +49,9 @@ int main() {
     }
 }
 // } Driver Code Ends
+
+
+
 
 
 
