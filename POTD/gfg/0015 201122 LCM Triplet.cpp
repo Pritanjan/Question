@@ -1,5 +1,23 @@
 // https://practice.geeksforgeeks.org/problems/lcm-triplet1501/1
 
+// STEPS
+Take care of integer overflow.
+
+There will be 4 different cases to be considered
+
+First case is when N is less than 3
+
+Second Case is when N is Odd
+
+Third case is when N is even but not divisible by 3
+
+Last case will be when N is even and divisible by 3
+
+The difference between the maximum of the three numbers of the required triplets and 
+the minimum will be at most 3
+
+
+
 //{ Driver Code Starts
 // Initial Template for C++
 
