@@ -1,5 +1,8 @@
 // https://practice.geeksforgeeks.org/problems/magic-triplets4003/1/
 
+// Find number which are greater than a[i] in right side of a[i] and the numbers 
+// which are smaller than a[i] in left side of a[i].
+
 //{ Driver Code Starts
 #include<bits/stdc++.h>
 using namespace std;
@@ -46,5 +49,12 @@ int main(){
 }
 // } Driver Code Ends
 
+
+
+
+// Time Complexity : O(N2) -  
+// As for each index we need to loop left and right of the particular index.
+
+// Space Complexity : O(1) -  We are using variables to count the answer.
 
 
