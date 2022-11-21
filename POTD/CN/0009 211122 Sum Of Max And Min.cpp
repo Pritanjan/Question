@@ -1,3 +1,5 @@
+// https://www.codingninjas.com/codestudio/problems/sum-of-max-and-min_1081476?leftPanelTab=2
+
 #include <bits/stdc++.h> 
 int sumOfMaxMin(int arr[], int n){
 	int mi = arr[0]; 
@@ -9,3 +11,10 @@ int sumOfMaxMin(int arr[], int n){
     
     return mx + mi;
 }
+
+
+
+
+
+
+
