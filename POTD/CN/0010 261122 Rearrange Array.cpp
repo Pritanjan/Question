@@ -1,6 +1,5 @@
 // https://www.codingninjas.com/codestudio/problem-of-the-day/easy?leftPanelTab=0
 
-
 #include <bits/stdc++.h> 
 void rearrangeArray(int arr[], int n) {
 //     vector<int> v;
@@ -14,6 +13,7 @@ void rearrangeArray(int arr[], int n) {
     
     return ;
 }
+
 
 
 
