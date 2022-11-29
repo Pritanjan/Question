@@ -1,4 +1,6 @@
 // https://practice.geeksforgeeks.org/problems/count-the-number-of-full-binary-trees2525/1
+// https://www.geeksforgeeks.org/number-full-binary-trees-node-product-children/
+
 
 //{ Driver Code Starts
 #include <bits/stdc++.h>
@@ -63,8 +65,6 @@ int main() {
 
 
 // } Driver Code Ends
-
-
 
 
 
