@@ -1,13 +1,7 @@
 // https://practice.geeksforgeeks.org/problems/check-if-it-is-possible-to-convert-one-string-into-another-with-given-constraints4116/1
 
-//{ Driver Code Starts
-// Initial Template for C++
-
 #include <bits/stdc++.h>
 using namespace std;
-
-// } Driver Code Ends
-// User function Template for C++
 
 class Solution {
   public:
@@ -27,8 +21,6 @@ class Solution {
     }
 };
 
-//{ Driver Code Starts.
-
 int main() {
     int t;
     cin >> t;
@@ -41,8 +33,6 @@ int main() {
         cout << "\n";
     }
 }
-// } Driver Code Ends
-
 
 
 
