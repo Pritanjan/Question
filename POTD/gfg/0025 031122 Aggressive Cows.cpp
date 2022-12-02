@@ -1,4 +1,6 @@
 // https://practice.geeksforgeeks.org/problems/aggressive-cows/1
+// 1552. Magnetic Force Between Two Balls.cpp
+
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -57,4 +59,12 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
 
