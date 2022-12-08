@@ -5,34 +5,29 @@ using namespace std;
 // } Driver Code Ends
 class Solution{
 public:
-    vector<bool> seiveOfErathosesis(int n) {
-        vector<bool> arr(n+1,true);
-        arr[0] = arr[1] = false;
-        for(int i=2;i*i<=n;i++) {
-            if(arr[i] == true) {
-                for(int j = i*i;j<=n;j+=i) {
-                   arr[j] =false;
-                }
-            }
-        }
-        return arr;
-    }
 
+    bool isPrime(int n){
+        for(int i=2; i*i<=n ; i++){
+            if(n % i == 0)
+                return false ;
+            
+        }
+        return true;
+    }
+    
     vector<int> threeDivisors(vector<long long> query, int q) {
-        vector<bool>ans;
-        vector<int>banar;
-        int c;
-        ans = seiveOfErathosesis(1000000);
-        for(int i=0;i<query.size();i++) {
-            c=0;
-            long long int x = query[i];
-            for(long long j = 2;j*j<=x;j++) {
-                if(ans[j] == true)
-                    c++;
-             }
-             banar.push_back(c);
-       }
-       return banar;
+        vector<int> v;
+        for(int i=0; i<q; i++){
+            int p = query[i];
+            int prev = 0;
+            for(int j=2; j<=p; j++){
+                int x = sqrt(j);
+                if(x*x == j && isPrime(x))
+                   prev++;
+            }
+            v.push_back(prev);
+        }
+        return v;
     }
 };
 
@@ -57,4 +52,9 @@ int main()
     return 0;
 }
 // } Driver Code Ends
+
+
+
+
+
 
