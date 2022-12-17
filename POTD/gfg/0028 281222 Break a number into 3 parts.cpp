@@ -1,4 +1,5 @@
 // https://practice.geeksforgeeks.org/problems/break-a-number5913/1
+// https://www.geeksforgeeks.org/break-number-three-parts/
 
 //{ Driver Code Starts
 //Initial Template for C++
@@ -33,7 +34,6 @@ int main()
     return 0; 
 } 
 // } Driver Code Ends
-
 
 
 
