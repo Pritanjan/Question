@@ -38,8 +38,3 @@ public:
 // changing the links to get a better feel how this can be done please draw on paper and try to 
 // change the links to get in order the idea I have used is to keep a previous pointer ,curr and we 
 // can use the same variable head
-
-
-
-
-
