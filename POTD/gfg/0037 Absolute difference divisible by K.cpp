@@ -1,3 +1,5 @@
+// https://practice.geeksforgeeks.org/problems/e0059183c88ab680b2f73f7d809fb8056fe9dc43/1
+
 class Solution {
   public:
     long long countPairs(int n, int arr[], int k) {
@@ -19,3 +21,5 @@ class Solution {
         return cnt;
     }
 };
+
+
