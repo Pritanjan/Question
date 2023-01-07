@@ -23,3 +23,18 @@ class Solution {
 };
 
 
+
+class Solution {
+  public:
+    long long countPairs(int n, int arr[], int k) {
+        long long ans = 0;
+        vector<int> v(k,0);
+        for(int i = 0; i < n; i++){
+            ans += v[arr[i] % k]++;
+        }
+        return ans;
+    }
+};
+
+
+
