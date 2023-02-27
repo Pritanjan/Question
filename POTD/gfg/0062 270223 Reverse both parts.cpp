@@ -1,5 +1,11 @@
 // https://practice.geeksforgeeks.org/problems/bae68b4d6a2a77fb6bd459cf7447240919ebfbf5/1
 
+//  reverse the first k nodes.
+
+//  pass the next pointer with INT_MAX. The while loop won't run infinite because it'll stop when the cur becomes null.
+
+
+
 class Solution
 {
 public:
@@ -24,3 +30,6 @@ public:
         return prev;
     }
 };
+
+
+
