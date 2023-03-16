@@ -48,3 +48,28 @@ int main() {
     }
 }
 
+
+
+
+// Initialize a variable count to 0, which will keep track of the number of subarrays of 0's.
+
+// Initialize two pointers start and end to 0, which will represent the start and 
+// end indices of a subarray.
+
+// Traverse the array arr using a loop from start to end.
+
+// If the current element is 0, increment the end pointer.
+
+// If the current element is 1, calculate the number of subarrays that can be formed 
+// between start and end pointers. The number of subarrays that can be formed
+// between these pointers is equal to (end - start) * (end - start + 1) / 2. 
+// Add this value to count.
+
+// Move the start pointer to the next index after the first 0 encountered,
+// and set the end pointer to the next index.
+
+// Repeat steps 4-6 until the end of the array is reached.
+
+// Return the value of count
+
+
