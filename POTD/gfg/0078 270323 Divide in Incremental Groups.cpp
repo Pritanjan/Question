@@ -1,7 +1,10 @@
-int dp[101][101][101];
+// https://practice.geeksforgeeks.org/problems/c239059f6d110e6778cc2f2a1ab58ffd0a3d64ca/1
 
+
+
+int dp[101][101][101];
 class Solution {
-  public:
+public:
     int countWaystoDivide(int N, int K) {
         for (int j = 1; j <= N; j++) {
             dp[0][j][0] = 1;
@@ -19,6 +22,8 @@ class Solution {
         return dp[N][N][K];
     }
 };
+
+
 
 
 
@@ -61,6 +66,8 @@ public:
 
 
 
+
+
 int f(int num,int N,int K,vector<vector<vector<int>>>& dp) {
       if(K==0)
       {
@@ -81,6 +88,9 @@ int f(int num,int N,int K,vector<vector<vector<int>>>& dp) {
       vector<vector<vector<int>>> dp(N+1,vector<vector<int>>(N+1,vector<int>(K+1,-1)));
       return f(1,N,K,dp);
   }
+
+
+
 
 
 
