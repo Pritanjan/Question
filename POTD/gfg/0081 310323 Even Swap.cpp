@@ -1,5 +1,7 @@
 // https://practice.geeksforgeeks.org/problems/even-swap/1
 
+// APPROACH 1
+
 class Solution
 {
 public:
@@ -25,6 +27,44 @@ public:
 };
 
 
+
+
+// APPROACH 2
+
+class Solution {
+public:
+    vector <int> lexicographicallyLargest(vector <int> &a,int n) {
+        for(int i=0; i<n; i){
+            int j = i;
+            while(i < n and a[i] % 2) i++;
+            
+            sort(a.begin()+j,a.begin()+i,greater<>());
+            j=i;
+            while(i<n and a[i]%2==0)i++;
+            sort(a.begin()+j,a.begin()+i, greater<>());
+        }
+        return a;
+    }
+};
+
+
+
+
+
+// APPROACH 3
+
+class Solution {
+public:
+    vector<int> lexicographicallyLargest(vector<int> &a, int n) {
+        for(int i = 0; i < n;) {
+            int rem = a[i]&1, j = i;
+            while(j < n && a[j]%2 == rem) j++;
+            sort(a.begin() + i, a.begin() + j, greater<int>());
+            i = j;
+        }
+        return a;
+    }
+};
 
 
 
