@@ -1,5 +1,8 @@
 // https://practice.geeksforgeeks.org/problems/badefd58bace4f2ca25267ccfe0c9dc844415e90/1
 
+
+// APPROACH 1
+
 class Solution {
   public:
     vector<int> makeBeautiful(vector<int> arr) {
@@ -37,4 +40,34 @@ int main() {
 
 
 
+
+
+
+// APPROACH 2
+
+
+
+class Solution {
+  public:
+    vector<int> makeBeautiful(vector<int> arr) {
+        stack<int> st;
+        for(auto it : arr) {
+            if(st.size() > 0) {
+                if(st.top() >= 0 && it < 0) st.pop();
+                else if(st.top() < 0 && it >= 0) st.pop();
+                else st.push(it);
+            }
+            else st.push(it);
+        }
+        
+        vector<int> ans;
+        while(!st.empty()) {
+            ans.push_back(st.top());
+            st.pop();
+        }
+        
+        reverse(ans.begin(),ans.end());
+        return ans;
+    }
+};
 
