@@ -1,0 +1,21 @@
+// https://practice.geeksforgeeks.org/problems/reversing-the-equation2205/1
+
+
+class Solution {
+public:
+    string reverseEqn (string s) {
+        reverse(s.begin(), s.end());
+        int n = s.size();
+        for(int i=0; i<n; i++) {
+            if(s[i] >= '0' && s[i] <= '9') {
+                int j = i;
+                while(j < n && (s[j] >= '0' && s[j] <= '9')) j++;
+                reverse(s.begin() + i, s.begin() + j);
+                i = j;
+            }
+        }
+        return s;
+    }
+};
+
+
