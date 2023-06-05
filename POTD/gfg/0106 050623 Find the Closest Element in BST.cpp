@@ -19,3 +19,33 @@ public:
         return res;
     }
 };
+
+
+
+
+
+
+
+class Solution {
+public:
+    // Function to find the least absolute difference
+    // between any node value of the BST and the given
+    // integer.
+    int ans = INT_MAX;
+
+    void dfs(Node* root, int k)
+    {
+        if (!root)
+            return;
+        ans = min(ans, abs(root->data - k));
+        dfs(root->left, k);
+        dfs(root->right, k);
+    }
+
+    int minDiff(Node* root, int K)
+    {
+        dfs(root, K);
+        return ans;
+    }
+};
+
